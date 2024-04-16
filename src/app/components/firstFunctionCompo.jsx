@@ -1,7 +1,7 @@
 export const FirstFunctionCompo = () => {
     return (
         <>
-            <h2>Mon composant fonction</h2>
+            <h2 className={"title"}>Mon composant fonction</h2>
         </>
     );
 }
