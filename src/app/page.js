@@ -2,6 +2,9 @@ import FirstClasseComponent from "@/app/components/firstClasseCompo";
 import FirstFunctionCompo from "@/app/components/firstFunctionCompo";
 import styles from "@/app/page.module.css";
 import styles2 from "@/app/page2.module.css";
+import Event from "@/app/components/event";
+import Counter from "@/app/components/counter";
+import DemoUseref from "@/app/components/demoUseref";
 
 export default function Home() {
     return (
@@ -12,6 +15,9 @@ export default function Home() {
             <FirstClasseComponent />
             <h2 className={styles2.soustitre}>Composant fonction : </h2>
             <FirstFunctionCompo />
+            <Event />
+            <Counter />
+            <DemoUseref />
         </section>
     );
 }
