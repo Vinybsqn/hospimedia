@@ -5,6 +5,7 @@ import styles2 from "@/app/page2.module.css";
 import Event from "@/app/components/event";
 import Counter from "@/app/components/counter";
 import DemoUseref from "@/app/components/demoUseref";
+import Lifecycle from "@/app/components/lifecycle";
 
 export default function Home() {
     return (
@@ -18,6 +19,7 @@ export default function Home() {
             <Event />
             <Counter />
             <DemoUseref />
+            <Lifecycle />
         </section>
     );
 }
