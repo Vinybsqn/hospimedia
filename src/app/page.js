@@ -6,6 +6,7 @@ import Event from "@/app/components/event";
 import Counter from "@/app/components/counter";
 import DemoUseref from "@/app/components/demoUseref";
 import Lifecycle from "@/app/components/lifecycle";
+import DemoMemo from "@/app/components/memo/demoMemo";
 
 export default function Home() {
     return (
@@ -20,6 +21,7 @@ export default function Home() {
             <Counter />
             <DemoUseref />
             <Lifecycle />
+            <DemoMemo />
         </section>
     );
 }
