@@ -8,6 +8,8 @@ const NavBar = () => {
             <Link href={"/masuperroute"}>Ma super route</Link>
             <Link href={"/characteres"}>Characters</Link>
             <Link href={"/dynamique"}>Dynamique</Link>
+            <Link href={"/formulaire"}>Formulaire</Link>
+            <Link href={"/callApi"}>Call API</Link>
         </div>
     )
 }
