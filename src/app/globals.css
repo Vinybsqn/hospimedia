@@ -21,3 +21,7 @@
 .nav a:hover {
     color: #007BFF;
 }
+
+.completed-task {
+    text-decoration: line-through;
+}
